@@ -3,7 +3,7 @@ import { devkit } from "https://raw.githubusercontent.com/hhatto/dev-kit-js/deno
 async function handleRequest(request: Request) {
 	const { pathname } = new URL(request.url);
 
-	console.log(devkig);
+	console.log(devkit);
 
 	const encoded = { message: "Hello world" };
 	return new Response(encoded, {
